@@ -1,0 +1,18 @@
+/*
+Designed By: Abhishek Vaish
+Linkedin: https://www.linkedin.com/in/abhishek-vaish
+Tool: VSCode (version: 1.56)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.movieApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

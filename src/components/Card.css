@@ -1,0 +1,45 @@
+/*
+Designed By: Abhishek Vaish
+Linkedin: https://www.linkedin.com/in/abhishek-vaish
+Tool: VSCode (version: 1.56)
+*/
+
+.card {
+  margin-right: 50px;
+}
+
+.card__rectangle {
+  width: 200px;
+  height: 300px;
+  background-color: #424340;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24pt;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card__title {
+  margin-top: 5px;
+  width: fit-content;
+}
+
+.card__image {
+  width: 180px;
+}
+
+.card__heading {
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    padding-bottom: 30px;
+  }
+}

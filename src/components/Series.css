@@ -1,0 +1,36 @@
+/*
+Designed By: Abhishek Vaish
+Linkedin: https://www.linkedin.com/in/abhishek-vaish
+Tool: VSCode (version: 1.56)
+*/
+
+.series {
+  width: 100%;
+  color: black;
+  padding: 20px 30px 200px 40px;
+}
+
+.series__data {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  grid-gap: 30px 10px;
+}
+
+.error {
+  width: max-content;
+}
+
+@media screen and (max-width: 700px) {
+  .series__data {
+    display: grid;
+    grid-template-columns: 200px;
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .series__data {
+    grid-template-columns: 200px 200px 200px;
+    padding: 0px 50px;
+  }
+}

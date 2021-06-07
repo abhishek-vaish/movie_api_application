@@ -1,0 +1,130 @@
+/*
+Designed By: Abhishek Vaish
+Linkedin: https://www.linkedin.com/in/abhishek-vaish
+Tool: VSCode (version: 1.56)
+*/
+
+.footer__head {
+  width: 100%;
+  height: fit-content;
+  background-color: #424340;
+  padding: 60px 50px;
+}
+
+.footer__content .content__link {
+  display: flex;
+}
+
+.footer__content .content__link p {
+  color: rgb(167, 167, 167);
+}
+
+.footer__content .content__link a {
+  color: rgb(167, 167, 167);
+  text-decoration: none;
+  margin: 0px 10px;
+  font-weight: 500;
+}
+
+.footer__content .content__copyright {
+  color: gray;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.footer__logo .logo__social {
+  color: white;
+  font-size: 18pt;
+}
+
+.footer__logo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo .logo__social i {
+  color: white;
+  margin: 0px 10px;
+}
+
+.footer__logo .logo__download img {
+  width: 150px;
+  margin: 0px 20px;
+}
+
+.footer__logo .logo__download .microsoft__logo {
+  width: 120px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__head {
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+  .footer__content .content__link {
+    display: flex;
+    flex-direction: column;
+    font-size: 6pt;
+  }
+
+  .footer__logo {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .footer__logo .logo__download {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__logo .logo__download img {
+    width: 100px;
+  }
+
+  .footer__logo .logo__download .microsoft__logo {
+    width: 100px;
+  }
+
+  .footer__logo .logo__social i {
+    margin: 0px 10px;
+    font-size: 14pt;
+  }
+
+  .footer__content .content__copyright {
+    font-size: 6pt;
+    margin: 0px;
+  }
+
+  .footer__content .content__link a {
+    margin: 5px 1px 0px 1px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer__content .content__link {
+    font-size: 10pt;
+  }
+
+  .footer__content .content__link a {
+    margin: 0px 4px 0px 4px;
+  }
+
+  .footer__content .content__copyright {
+    font-size: 9pt;
+    margin-left: 4px;
+  }
+}

@@ -1,0 +1,80 @@
+/*
+Designed By: Abhishek Vaish
+Linkedin: https://www.linkedin.com/in/abhishek-vaish
+Tool: VSCode (version: 1.56)
+*/
+
+.navBar .navBar__menu {
+  width: 100%;
+  background-color: #0067ff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18pt;
+  font-weight: 600;
+  padding: 10px 100px;
+}
+
+.navBar__menu .navMenu__title {
+  padding: 0;
+  margin: 0;
+}
+
+.navBar__menu .navMenu__button .navMenu__loginButton {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  padding: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.navBar__menu .navMenu__button .navMenu__loginButton:focus {
+  outline: none;
+}
+
+.navBar__menu .navMenu__button .navMenu__trialButton {
+  background-color: #424340;
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.navBar__menu .navMenu__button .navMenu__trialButton:focus {
+  outline: none;
+}
+
+.title__header {
+  background-color: #424340;
+  height: 50px;
+  color: white;
+  padding: 12px 100px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128);
+}
+
+.title__header p {
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  .navBar .navBar__menu {
+    padding: 10px 30px;
+  }
+
+  .navBar__menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navMenu__button {
+    margin: 10px 0px;
+  }
+
+  .title__header {
+    display: flex;
+    justify-content: center;
+  }
+}

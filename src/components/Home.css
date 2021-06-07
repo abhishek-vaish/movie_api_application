@@ -1,0 +1,23 @@
+/*
+Designed By: Abhishek Vaish
+Linkedin: https://www.linkedin.com/in/abhishek-vaish
+Tool: VSCode (version: 1.56)
+*/
+
+.home {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.home__card {
+  margin: 50px 100px;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .home__card {
+    margin: 50px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+}

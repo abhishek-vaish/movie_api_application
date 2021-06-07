@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# OTT React Application 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application designed and developed using the React.js framework. The whole application is divided into three pages i.e. Home, Series, Movie. The data for Series and Movie is fetch using the [API](https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json). The application is designed for each device so, it is device friendly application.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Every Series and Movie cards are well maintain with the same size for each devices.
+- Data for Series and Movie is sorted (i.e. ascending order) based on titles.
+- Footer and header of the application is changed according to the device you are using.
+- Have a interactive console.
 
-### `npm start`
+## Questions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Q1. How did you decide on the technical and architectural choices used as part of your solution?**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A1. The architectural choices is decided on the basis of the information provided in the README document. All the colors combination and the other stuffs like the margin and the padding provided between the components all where decided based upon the README document. And the technical choices where decided based upon the past experience and the application that where designed and summer internship projects helps a lot to figure out the problem at different stages while designing the application.
 
-### `npm test`
+**Q2. Are there any improvements you could make to your submission?**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A2. Yes, there must be the improved code that can optimize the time taken for showing the relevant result. In the code, I use the `for` loop for iterating the data from an array this can be replace with something more effiecient algorithm.
 
-### `npm run build`
+In designing, other CSS elements can be used which make the CSS file to look simple and more attractive to achieve the same result.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Q3. What would you do differently if you were allocated more time?**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A3. If, more time allocated then:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Nav bar for mobile screen can be designed more better.
+- Footer can be more attractive for mobile and the tablet screens.
+- Good color combination can be achieve.
+- More interactive console can be made and more screen can be added like, `login screen`, `signup screen`.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Desktop Size
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![desktop-screenshot-home](./src/assets/screenshot-1.png)
+![desktop-screenshot-series](./src/assets/screenshot-2.png)
+![desktop-screenshot-movies](./src/assets/screenshot-3.png)
