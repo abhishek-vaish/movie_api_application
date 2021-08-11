@@ -4,35 +4,13 @@ Linkedin: https://www.linkedin.com/in/abhishek-vaish
 Tool: VSCode (version: 1.56)
 */
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Card from "../components/Card";
 import "../components/Series.css";
+import useFetchMovie from "../hooks/useFetchMovie";
 
 const SeriesJson = () => {
-  const url =
-    "https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json";
-  const [series, setSeries] = useState({
-    data: [],
-    error: "",
-    loading: true,
-  });
-
-  useEffect(() => {
-    fetch(url)
-      .then((response) => response.json())
-      .then((true_data) =>
-        setSeries({
-          ...series,
-          data: sortData(true_data.entries),
-          loading: false,
-        })
-      )
-      .catch((err) => setSeries({ ...series, error: err }));
-  }, []);
-
-  const sortData = (data) => {
-    return data.sort((a, b) => a.title > b.title);
-  };
+  const [series] = useFetchMovie();
 
   return (
     <div className="series__data">
@@ -63,10 +41,3 @@ const SeriesJson = () => {
 };
 
 export default SeriesJson;
-
-// const apiCall = () =>
-//   fetch(
-//     "https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json"
-//   )
-//     .then((response) => response.json())
-//     .then((data) => setSeries(data.entries));
