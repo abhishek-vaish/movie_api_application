@@ -34,13 +34,13 @@ const Footer = () => {
       <div className="footer__logo">
         <div className="logo__social">
           <a href="https://facebook.com">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
           </a>
           <a href="https://twitter.com">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
           <a href="https://instgram.com">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
         <div className="logo__download">
@@ -63,4 +63,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default React.memo(Footer);

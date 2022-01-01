@@ -6,10 +6,13 @@ Tool: VSCode (version: 1.56)
 
 import React from "react";
 import "./Card.css";
+import classnames from "classnames";
 
 const Card = (props) => {
+  const cardClass = classnames("card", props.heading);
+
   return (
-    <div className="card">
+    <div className={cardClass}>
       <a className="card__link" href={props.link}>
         {props.img != null ? (
           <img className="card__image" src={props.img} alt="poster" />

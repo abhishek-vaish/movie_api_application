@@ -11,9 +11,8 @@ const Header = (props) => {
   return (
     <div className="navBar">
       <div className="navBar__menu">
-        <p className="navMenu__title">DEMO Streaming</p>
+        <p className="navMenu__title">Demo Streaming</p>
         <div className="navMenu__button">
-          <button className="navMenu__loginButton">Log In</button>
           <button className="navMenu__trialButton">
             Start your free trial
           </button>

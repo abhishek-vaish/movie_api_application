@@ -1,10 +1,14 @@
 import { useState, useEffect } from "react";
+// import { useQuery } from "react-query";
 
 const useFetchMovie = () => {
   const url =
     "https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json";
   const [movies, setMovies] = useState({ data: [], error: "", loading: true });
   const [series, setSeries] = useState({ data: [], error: "", loading: true });
+  // const {data, isLoading} = useQuery("apiData", () => {
+  //   fetch(url)
+  // })
 
   const urlCall = () =>
     fetch(url)
