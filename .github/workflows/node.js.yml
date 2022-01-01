@@ -28,3 +28,9 @@ jobs:
     - run: npm run build --if-present
       env:
         CI: false
+    - name: Cypress Test
+      uses: cypress-io/github-action@v2
+      run: npm run cypress:open
+      with:
+        start: npm start
+        wait-on: http://localhost:3000
