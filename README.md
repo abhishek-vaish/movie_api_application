@@ -1,4 +1,5 @@
 # OTT React Application 🎬
+[![Node.js CI](https://github.com/abhishekv5055/movie_api_application/actions/workflows/node.js.yml/badge.svg)](https://github.com/abhishekv5055/movie_api_application/actions/workflows/node.js.yml)
 
 This application designed and developed using the React.js framework. The whole application is divided into three pages i.e. Home, Series, Movie. The data for Series and Movie is fetch using the [API](https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json). The application is designed for each device so, it is device friendly application.
 
