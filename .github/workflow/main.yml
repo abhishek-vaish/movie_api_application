@@ -1,7 +1,7 @@
 name: Movie App Github Actions
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 jobs:
   build:
     runs-on: ubuntu-latest
